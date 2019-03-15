@@ -5,13 +5,13 @@ Use this for :
     Determing system state from noisy data 
 
 Assumption :
-    Linear System
-    Noise if uncorrelated and normally distributed
-    oise covariance Q and measurement noise R covariance are assumed constant 
+    *Linear System
+    *Noise if uncorrelated and normally distributed
+    *Noise covariance Q and measurement noise R covariance are assumed constant 
     
     Optimal if :
         1 . Model perfectly matches real system
-        2 . Entering noise if uncorrelated , normally distributed(which if you have enough data should be fine due to law of large numbers)
+        2 . Entering noise is uncorrelated , normally distributed(which if you have enough data should be fine due to law of large numbers)
         3 . Covariances of noise are exactly known
 
 
